@@ -1,0 +1,68 @@
+*{
+	margin: 0px; padding: 0px;
+}
+
+header{
+	height: 50px; border-bottom: 2px solid darkgray;
+	line-height: 50px; font-size: 14px;
+	position: fixed; width: 100%;
+	top:0px; left: 0px;
+	background: white;
+}
+
+.container ul{
+	margin-top: 55px;
+}
+.container ul li{
+	list-style: none;
+	height: 50px; padding: 5px;
+	margin-left: 5px; margin-right: 5px;
+	border-bottom: 1px solid gainsboro;
+	transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+}
+
+.container ul li div{
+	height: 50px;
+}
+
+.container ul li span{
+	display: none;
+}
+
+.container ul li .icon{
+	width: 50px; float: left;
+	background-image: url(../img/dir.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.container ul li .text{
+	float: left; line-height: 50px;
+}
+
+.container ul li .pointer{
+	width: 40px; background-size: contain;
+	background-repeat: no-repeat;
+	margin: 10px;
+	background-position: right center;
+	float: right; height: 30px; background-image: url(../img/right_cursor.png);
+} 
+/** 定义操作栏的样式 */
+.container ol{
+	position: fixed; bottom: 0px; width: 100%;
+	display: none;
+}
+
+.container ol li{
+	list-style: none; height: 50px; 
+	background-color: cornflowerblue;
+	line-height: 50px; text-align: center;
+	border-bottom: 1px solid white;
+}
+
+
+
+
+
+
